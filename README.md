@@ -5,7 +5,9 @@ kernel_demo.c: create netlink socket and handle received msg from user space.
 
 user_demo.c : create socket and send a msg to kernel space, waiting return msg.
 
-running step:
+note: nneed to define NETLINK_TEST in netlink.h
+
+running steps:
 ```shell
 # make
 # sudo insmod kernel_demo.ko
