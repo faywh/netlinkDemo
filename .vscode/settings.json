@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4,
+    "files.associations": {
+        "module.h": "c",
+        "init.h": "c",
+        "types.h": "c",
+        "netlink.h": "c",
+        "sock.h": "c",
+        "stat.h": "c",
+        "socket.h": "c"
+    }
+}
